@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# production build
+build/
+
+# environment files, Firebase CLI files and logs
+.env*
+.firebase/
+*.log
+
+# helper files
+tree_output.txt

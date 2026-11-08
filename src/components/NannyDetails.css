@@ -1,0 +1,141 @@
+.nanny-details-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.nanny-details-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.nanny-details-card {
+  width: 100%;
+  height: auto; 
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nanny-image {
+  width: 100%;
+  height: 300px;  
+  object-fit: cover;
+}
+
+.nanny-card-body {
+  flex-grow: 1;  
+}
+
+.nanny-details-buttons {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.contact-button, .declaration-button {
+  width: 100%; 
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-button {
+  background-color: #f0ad4e;
+  border: 1px solid #f0ad4e;
+  color: white;
+}
+
+.contact-button:hover {
+  background-color: #e08e2c;
+  transform: scale(1.05);
+}
+
+.declaration-button {
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+  color: white;
+}
+
+.declaration-button:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}
+
+.attributes-card, .reviews-card, .about-me-card {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .nanny-details-row {
+    flex-direction: column;
+  }
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.image {
+  width: 20%;
+  height: auto; 
+}
+
+.reviews-header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.reviews-header {
+  text-align: center;  
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.reviews-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;  
+  width: 100%;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  padding: 15px;
+  border-left: 5px solid #f0ad4e;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.review-rating {
+  color: #f0ad4e;
+}
+
+.review-text {
+  font-style: italic;
+  color: #555;
+  text-align: left;  
+}

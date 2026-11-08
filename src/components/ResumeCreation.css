@@ -1,0 +1,173 @@
+ResumeCreation * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ResumeCreation-body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#title1-Resume {
+  margin-top: 40px;
+  text-decoration: underline;
+  font-size: 1.3rem; 
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+#title2-Resume {
+  margin-top: 40px;
+  text-decoration: underline;
+  font-size: 1.3rem; 
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+/* Container */
+.ResumeCreation-form-container {
+  font-family: Arial, sans-serif;
+  /* padding: 30px; */
+  margin-left: 20px;
+  background-color: #f9f9f9;
+  /* max-width: 700px; */
+  /* margin: auto; */
+}
+
+/* Section Header */
+.ResumeCreation-section-header {
+  /* width: 3rem; */
+  background-color: #e0e0e0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 3rem;
+}
+
+.ResumeCreation-section-header h2 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.ResumeCreation-section-icon {
+  margin-right: 10px;
+}
+
+.ResumeCreation-section-of-forum {
+  margin-bottom: 50px;
+}
+
+.ResumeCreation-form-group {
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-bottom: 20px; 
+  position: relative;
+}
+
+.ResumeCreation-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ResumeCreation-form-group input {
+  width: 18rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.ResumeCreation-icon-button {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ResumeCreation-icon-button:hover {
+  transform: translateY(-3px);
+}
+
+.ResumeCreation-icon-button:hover .ResumeCreation-button-text {
+  font-weight: 550; 
+  /* font-size: 1rem;   */
+  transition: font-size 0.3s ease, font-weight 0.2s ease; 
+}
+
+/* input[type="file"] {
+  border: none;
+} */
+
+.ResumeCreation-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 100px;
+}
+
+.ResumeCreation-button-customization_finalized_forum {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 1rem 2rem;
+  margin-bottom: 100px;
+}
+
+.ResumeCreation-button-customization {
+  padding: 1rem 2rem;
+  height: 2.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ResumeCreation-button-customization:hover {
+  transform: translateY(-1px) scale(1.05);
+}
+
+.ResumeCreation-button-customization:hover span {
+    font-size: 1rem;     
+    font-weight: 100;    
+    transition: font-size 0.3s ease, font-weight 0.2s ease;
+}
+
+.ResumeCreation-button-customization:hover .ResumeCreation-second-button {
+  font-size: 1rem;
+  font-weight: 100;
+  transition: font-size 0.3s ease, font-weight 0.2s ease;
+}
+
+#return-span {
+    text-decoration: underline;
+    text-decoration-color: currentColor; 
+    text-underline-offset: 2px;
+}
+
+.ResumeCreation-button-text {
+  white-space: nowrap;
+  display: inline;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.ResumeCreation-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.error-message {
+  color: red; 
+  font-size: 0.875rem;
+  margin-top: 4px; 
+  display: block; 
+  position: absolute; 
+  left: 0; 
+  top: 100%; 
+}
+
+input.invalid {
+  border-color: red;
+}

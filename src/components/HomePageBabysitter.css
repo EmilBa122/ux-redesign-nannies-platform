@@ -1,0 +1,161 @@
+HomePageBabysitter * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.HomePageBabysitter-body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#welcome-message {
+    /* margin-left: 100px; */
+    gap: 100px;
+    padding: 10px;
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+/* Main Container */
+.HomePageBabysitter-container {
+    display: flex;
+    gap: 100px;
+    padding: 1rem;
+}
+
+/* Left Section */
+.HomePageBabysitter-left-section {
+    flex: 1.25;
+    margin-left: 2rem;
+}
+
+.HomePageBabysitter-section-box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.HomePageBabysitter-section-box h3 {
+    text-align: center;
+    /* to font size soy allagei kai pws tha fainontai kai ta grammat sto boxes */
+    font-size: 1.2rem; 
+    /* font-weight: 400;  */
+    padding: 0 15px 15px 15px;
+}
+
+.HomePageBabysitter-button-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.HomePageBabysitter-icon-button {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    /* padding: 15px; */
+    width: 120px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.HomePageBabysitter-icon {
+    width: 69px;
+    height: 104px;
+    object-fit: contain;
+}
+
+.HomePageBabysitter-icon-button:hover {
+    transform: translateY(-3px);
+}
+
+.HomePageBabysitter-icon-button:hover .HomePageBabysitter-button-text {
+    font-weight: 100; 
+    font-size: 1.1rem;  
+    transition: font-size 0.3s ease, font-weight 0.2s ease; 
+}
+
+.HomePageBabysitter-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.HomePageBabysitter-button-text {
+    margin-top: 5px;
+}
+
+/* Right Section */
+.HomePageBabysitter-right-section {
+    flex: 0.5;
+    margin-right: 3rem;
+}
+
+.HomePageBabysitter-calendar-box,
+.HomePageBabysitter-ratings-box {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.below-section {
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+
+.extra-section {
+    justify-content: flex-start; 
+    gap: 20px; 
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+    margin: 0  auto 20px auto;
+    padding: 0 20px 20px 20px;
+    background-color: #f9f9f9;
+}
+
+.extra-box {
+    flex: 0 0 auto; 
+    max-width: 600px; 
+    background-color: white;
+    padding: 15px;
+    padding-right: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 0; 
+}
+
+h4:nth-of-type(1) { 
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+
+.extra-box h5 {
+    margin-bottom: 10px;
+}
+
+.extra-box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.extra-box li {
+    margin-bottom: 5px;
+}
+
+.extra-box p {
+    margin: 5px 0;
+}  

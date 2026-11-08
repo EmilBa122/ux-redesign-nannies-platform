@@ -1,0 +1,35 @@
+footer { 
+    
+    bottom: 0 !important; 
+    width: 100% !important;   
+    background-color: #4c4e50 !important; 
+    color: white !important; 
+    text-align: center !important; 
+    padding: 5px 0 !important; 
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    margin-top: auto !important;
+}
+
+.content {
+    padding-bottom: 50px !important;
+}
+
+footer h5 { 
+    margin-bottom: 10px;
+    font-size: 16px; 
+} 
+
+footer p, footer a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 14px; 
+} 
+
+footer a:hover { 
+    text-decoration: underline; 
+} 
+
+footer .list-unstyled { 
+    padding-left: 0; 
+    list-style: none; 
+}

@@ -1,0 +1,33 @@
+.left-scrollbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    overflow-y: scroll;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scroll-content {
+    height: 200vh;  
+  }
+  
+   
+  .left-scrollbar::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .left-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .left-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .left-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  

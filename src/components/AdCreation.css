@@ -1,0 +1,278 @@
+
+AdCreation * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AdCreation-body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#go-back-button-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    padding-left: 20px;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+
+.AdCreation-icon-button {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    background-color: transparent;
+    /* padding: 15px; */
+    width: 120px;
+    cursor: pointer;
+    /* text-align: center; */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.AdCreation-icon-button:hover {
+    transform: translateY(-3px);
+}
+
+.AdCreation-icon-button:hover .AdCreation-button-text {
+    font-weight: 100; 
+    font-size: 1.1rem;  
+    transition: font-size 0.3s ease, font-weight 0.2s ease; 
+}
+
+.AdCreation-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.AdCreation-button-text {
+    white-space: nowrap;
+    display: inline;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+#title1 {
+  text-decoration: underline;
+  font-size: 1.3rem; 
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+#title2 {
+  text-decoration: underline;
+  font-size: 1.3rem; 
+  /* margin-bottom: px; */
+  padding-left: 20px;
+}
+
+/* Container */
+.AdCreation-form-container {
+  font-family: Arial, sans-serif;
+  /* padding: 30px; */
+  margin-left: 20px;
+  background-color: #f9f9f9;
+  /* max-width: 700px; */
+  /* margin: auto; */
+}
+
+/* Section */
+.AdCreation-section {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Header */
+.AdCreation-section-header {
+  /* width: 3rem; */
+  
+  background-color: #e0e0e0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 3rem;
+}
+
+.AdCreation-section-header h2 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.AdCreation-section-icon {
+  margin-right: 10px;
+}
+
+/* Content inside the box */
+.AdCreation-form-content {
+  padding: 15px;
+}
+
+.AdCreation-section-of-forum {
+  margin-bottom: 50px;
+}
+
+.AdCreation-form-group {
+  margin-top: 30px;
+  margin-left: 35px;
+  /* to margin bottom tha prepei na to allaxeis meta */
+  margin-bottom: 20px; 
+  position: relative;
+}
+
+#AdCreation-character-count {
+  width: 44rem; 
+  text-align: right;
+}
+
+.AdCreation-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.AdCreation-form-group input {
+  width: 18rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+#from-AdCreation-description-textarea {
+  margin-left: 35px;
+  white-space: pre-line;
+}
+
+#hosting option[disabled] {
+  color: #999;  
+}
+
+#uploaded-file-section {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#file-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#remove-file {
+  cursor: pointer;
+  color: red;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.custom-select {
+  border-radius: 4px; 
+  outline: none; 
+  background-color: white; 
+}
+
+.custom-select:focus {
+  border: 2px solid #0078d4;
+}
+
+.custom-select option {
+  background-color: #EFEFEF; 
+}
+
+.AdCreation-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 100px;
+}
+
+.AdCreation-button-customization {
+  padding: 1rem 2rem;
+  height: 2.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.AdCreation-button-customization:hover {
+  transform: translateY(-1px) scale(1.05);
+}
+
+.AdCreation-button-customization:hover span {
+    font-size: 1rem;     
+    font-weight: 100;    
+    transition: font-size 0.3s ease, font-weight 0.2s ease;
+}
+
+.AdCreation-button-customization:hover .AdCreation-second-button {
+  font-size: 1.1rem;
+  font-weight: 100;
+  transition: font-size 0.3s ease, font-weight 0.2s ease;
+}
+
+button.disabled {
+  background-color: #ccc; 
+  color: #666;
+  cursor: not-allowed; 
+}
+
+button.disabled:hover {
+  background-color: #ccc; 
+  color: #666; 
+}
+
+.error-message {
+  color: red; 
+  font-size: 0.875rem;
+  margin-top: 4px; 
+  display: block; 
+  position: absolute; 
+  left: 0; 
+  top: 100%; 
+}
+
+input.invalid {
+  border-color: red;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 125%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 10;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s;
+  opacity: 1;
+}

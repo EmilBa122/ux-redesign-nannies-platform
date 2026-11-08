@@ -1,0 +1,149 @@
+
+.success-message {
+  color: #28a745; 
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInOut 4s ease-out forwards;  
+  background-color: #ccc;
+  
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  opacity: 0;  
+  transform: translateY(-50px);  
+}
+
+
+ 
+.personal-info-form {
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-start;  
+  gap: 10px;  
+}
+
+.cancel-btn, .submit-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cancel-btn {
+  background-color: #797777;  
+  color: white;
+  border: none;
+}
+
+.cancel-btn:hover {
+  background-color: #2b2828;  
+}
+
+.submit-btn {
+  background-color: #4CAF50;  
+  color: white;
+  border: none;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;  
+}
+
+.error-message {
+  color: red;  
+  font-size: 14px;  
+  margin-top: 5px;  
+}
+.success-message {
+  color: #28a745; 
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInOut 4s ease-out forwards;  
+  
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  opacity: 0;  
+  transform: translateY(-50px);  
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);  
+  }
+}
+
+.success-message::before {
+  content: "✔";  
+  margin-right: 10px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  color: #28a745;  
+}
+
+
