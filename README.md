@@ -1,8 +1,8 @@
 <h1 align="center">Human-Computer Interaction Project:<br>UX Redesign of the "Neighborhood Nannies" Website</h1>
 
-<h2 align="center"><i>Developed by:</i></h3>
-<h2 align="center"><a href="https://www.linkedin.com/in/emil-bantak-2219b3292/">Bantak Emil</a></h3>
-<h2 align="center"><a href="https://www.linkedin.com/in/παναγιώτης-τσιμπούρης/">Tsimpouris Panagiotis</a></h3>
+<h2 align="center"><i>Developed by:</i></h2>
+<h2 align="center"><a href="https://www.linkedin.com/in/emil-bantak-2219b3292/">Bantak Emil</a></h2>
+<h2 align="center"><a href="https://www.linkedin.com/in/παναγιώτης-τσιμπούρης/">Tsimpouris Panagiotis</a></h2>
 
 # Assignment Description
 
